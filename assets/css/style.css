@@ -1,8 +1,4 @@
 * {outline: 0px solid black}
-.box {
-    opacity: 0.4;
-    transition: opacity 0.1s linear;
-}
 .content {
     opacity: 0;
     transition: 0.2s ease;
@@ -345,4 +341,5 @@ main {
         border: 1px solid #4285f4;
         box-shadow: 0 0 20px #e8e8e8;
     }
+
 }
