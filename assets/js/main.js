@@ -33,35 +33,4 @@ document.getElementById("button [2]").addEventListener
         showDiv(current);
     }
 );
-
-// Fade in/out
-const boxes = document.querySelectorAll(".box");
-function updateOpacity()
-{
-    const windowHeight = window.innerHeight;
-    const halfWindow = windowHeight / 2;
-    boxes.forEach
-    (
-        box =>
-        {
-            const rect = box.getBoundingClientRect();
-            const visiblePart = Math.min(rect.bottom, windowHeight) - Math.max(rect.top, 0);
-            const visible = Math.min(Math.max(visiblePart / halfWindow, 0), 1);
-            let opacity;
-            if (rect.bottom <= 0 || rect.top >= windowHeight)
-            {opacity = 0;}
-            else if (visible < 0.2)
-            {
-                opacity = (visible / 0.2) * 0.4;
-            }
-            else
-            {
-                opacity = 0.4 + ((visible - 0.2) / 0.8) * (1 - 0.4);
-            }
-            box.style.opacity = opacity;
-        }
-    );
-}
-window.addEventListener("scroll", updateOpacity);
-window.addEventListener("resize", updateOpacity);
 updateOpacity();
