@@ -40,7 +40,7 @@
 [id="img [0]"] {height: clamp(45px, 10vw, 54px)}
 [id="img [1]"] {
     border-radius: 50%;
-    height: clamp(120px, 10vw, 150px);
+    height: clamp(160px, 15vw, 180px);
 }
 [id="img [2]"] {height: clamp(18px, 2vw, 20px)}
 [id="img [3]"] {height: clamp(24px, 2vw, 26px)}
@@ -349,4 +349,5 @@ main {
         box-shadow: 0 0 20px #e8e8e8;
     }
 }
+
 
