@@ -15,12 +15,6 @@
     transition: opacity 0.6s ease;
     will-change: opacity;
 }
-.title-gradient {
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background: linear-gradient(90deg, #4a90e2, #50c878);
-    background-clip: text;
-}
 [id="icon [0]"],
 [id="icon [1]"],
 [id="icon [2]"],
@@ -369,3 +363,4 @@ main {
         box-shadow: 0 0 20px #e8e8e8;
     }
 }
+
