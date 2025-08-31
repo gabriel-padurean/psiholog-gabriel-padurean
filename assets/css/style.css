@@ -44,11 +44,25 @@
 }
 [id="img [1]"] {
     border-radius: 50%;
-    height: clamp(160px, 15vw, 180px);
+    height: 15vw;
+    max-height: 180px;
+    min-height: 160px;
 }
-[id="img [2]"] {height: clamp(18px, 2vw, 20px)}
-[id="img [3]"] {height: clamp(24px, 2vw, 26px)}
-[id="img [4]"] {height: clamp(12px, 2vw, 14px)}
+[id="img [2]"] {
+    height: 2vw;
+    max-height: 20px;
+    min-height: 18px;
+}
+[id="img [3]"] {
+    height: 2vw;
+    max-height: 26px;
+    min-height: 24px;
+}
+[id="img [4]"] {
+    height: 2vw;
+    max-height: 14px;
+    min-height: 12px;
+}
 [id="img [5]"],
 [id="img [6]"],
 [id="img [7]"],
@@ -56,8 +70,10 @@
 [id="img [9]"],
 [id="img [10]"] {
     grid-area: 1/1;
+    max-width: 38px;
+    min-width: 36px;
     transition: 0.2s ease;
-    width: clamp(36px, 5vw, 38px);
+    width: 5vw;
 }
 [id="img [6]"],
 [id="img [8]"],
