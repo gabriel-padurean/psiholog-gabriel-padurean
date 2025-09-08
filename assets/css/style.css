@@ -74,7 +74,7 @@
 [id="img [10]"] {opacity: 0}
 [id="section [0]"] {
     background-color: #fff;
-    border-radius: 24px;
+    border-radius: 12px;
     box-shadow: 0 0 20px #e8e8e8;
     order: 2;
     padding: 60px 0 60px 0;
@@ -83,7 +83,7 @@
 [id="section [1]"] {
     align-items: flex-start;
     background-color: #fff;
-    border-radius: 24px;
+    border-radius: 12px;
     box-shadow: 0 0 20px #e8e8e8;
     display: grid;
     flex: 1;
@@ -98,7 +98,7 @@
     background-color: #4a90e2;
     align-items: center;
     background-color: #fff;
-    border-radius: 24px;
+    border-radius: 12px;
     box-shadow: 0 0 20px #e8e8e8;
     display: flex;
     flex: 1;
@@ -363,4 +363,5 @@ main {
         box-shadow: 0 0 20px #e8e8e8;
     }
 }
+
 
