@@ -4,7 +4,7 @@ document.getElementById("year [0]").textContent = new Date().getFullYear();
 // On before unload
 window.onbeforeunload = function ()
 {
-    // window.scrollTo(0, 0);
+    window.scrollTo(0, 0);
 }
 
 // Fade in/out
@@ -46,4 +46,5 @@ overlays.forEach
         target.style.opacity = 0.4;
         observer.observe(target);
     }
+
 );
