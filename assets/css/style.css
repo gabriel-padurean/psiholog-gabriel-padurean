@@ -146,7 +146,7 @@ h2 {
 h2,
 h3 {text-align: left}
 h3 {
-    font-size: 22pt;
+    font-size: 20pt;
     font-weight: 600;
     margin: 0;
 }
@@ -254,4 +254,5 @@ h16 {
         transition: opacity 0s linear 0.2s;
     }
     [id="icon [2]"]:hover [id="img [8]"] {opacity: 1}
+
 }
