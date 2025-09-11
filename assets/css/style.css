@@ -97,6 +97,7 @@ button {
     padding-bottom: 18px;
 }
 [id="button [1]"] {display: none}
+iframe,
 img {user-select: none}
 [id="img [0]"] {
     height: 10vw;
@@ -261,3 +262,4 @@ h17 {
     }
     [id="icon [2]"]:hover [id="img [8]"] {opacity: 1}
 }
+
