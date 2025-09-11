@@ -36,7 +36,7 @@ main div {
     flex-direction: column;
     justify-content: center;
 }
-[id="main [0]"] {background-color: #f6f9fdff}
+[id="main [0]"] {border-bottom: 1px solid #e1e1e1ff}
 [id="main [1]"] {
     background-color: #f9f9f9ff;
     border-top: 1px solid #e1e1e1ff;
@@ -57,7 +57,7 @@ section div div {
     flex-direction: column;
 }
 [id="section [0]"] {
-    background-color: white;
+    background-color: #fafbfeff;
     border-radius: 24px;
     border: 1px solid #dcdcdc;
     color: black;
