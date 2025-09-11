@@ -223,9 +223,13 @@ h17 {
 }
 [id="string [0]"] {display: flex}
 [id="string [1]"] {display: none}
+[id="string [2]"] {display: flex}
+[id="string [3]"] {display: none}
 @media (max-width: 720px) {
     [id="string [0]"] {display: none}
     [id="string [1]"] {display: flex}
+    [id="string [2]"] {display: none}
+    [id="string [3]"] {display: flex}
 }
 @media (max-width: 1080px) {
     header {position: relative}
@@ -262,4 +266,3 @@ h17 {
     }
     [id="icon [2]"]:hover [id="img [8]"] {opacity: 1}
 }
-
