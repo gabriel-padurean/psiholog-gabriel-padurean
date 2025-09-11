@@ -169,7 +169,7 @@ h6 {margin: 10px 0 10px 20px}
 h7 {
     font-size: 14pt;
     font-weight: 400;
-    margin: 25px 0 0 0;
+    margin: 40px 0 0 0;
     text-align: center;
 }
 h8 {margin: 10px 0 10px 20px}
@@ -262,3 +262,4 @@ h17 {
     }
     [id="icon [2]"]:hover [id="img [8]"] {opacity: 1}
 }
+
