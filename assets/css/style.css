@@ -16,7 +16,7 @@ body {
 header {
     align-items: center;
     background-color: white;
-    border-bottom: 1px solid #dcdcdc;
+    border-bottom: 1px solid #e1e1e1ff;
     display: flex;
     justify-content: space-evenly;
     margin: 0;
@@ -36,13 +36,11 @@ main div {
     flex-direction: column;
     justify-content: center;
 }
-[id="main [0]"] {
-    background-color: #f9fbfdff;
-    border-bottom: 1px solid #dcdcdc;
-}
+[id="main [0]"] {background-color: #f6f9fdff}
 [id="main [1]"] {
-    background-color: white;
-    border-bottom: 1px solid #dcdcdc;
+    background-color: #f9f9f9ff;
+    border-top: 1px solid #e1e1e1ff;
+    color: #5f6368ff;
 }
 section {
     width: 920px;
@@ -68,11 +66,12 @@ section div div {
 footer {
     align-items: center;
     background-color: white;
+    color: #5f6368ff;
     display: flex;
     flex-direction: column;
+    font-weight: 500px;
     justify-content: space-evenly;
     padding: 50px 20px 50px 20px;
-    row-gap: 40px;
 }
 footer div {
     column-gap: 30px;
@@ -168,7 +167,7 @@ h6 {
 h6 {margin: 10px 0 10px 20px}
 h7 {
     font-size: 14pt;
-    font-weight: 400;
+    font-weight: 450;
     margin: 40px 0 0 0;
     text-align: center;
 }
@@ -243,7 +242,7 @@ h17 {
 @media (pointer: fine) {
     button:hover {
         border: 1px solid #4285f4;
-        box-shadow: 0 0 20px #e8e8e8;
+        box-shadow: 0 0 10px #e8e8e8;
         cursor: pointer;
     }
     [id="icon [0]"]:hover [id="img [3]"] {
@@ -262,4 +261,3 @@ h17 {
     }
     [id="icon [2]"]:hover [id="img [8]"] {opacity: 1}
 }
-
