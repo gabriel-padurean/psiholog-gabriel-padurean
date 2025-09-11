@@ -71,8 +71,8 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 30px 20px 30px 20px;
-    row-gap: 20px;
+    padding: 50px 20px 50px 20px;
+    row-gap: 40px;
 }
 footer div {
     column-gap: 30px;
@@ -169,7 +169,7 @@ h6 {margin: 10px 0 10px 20px}
 h7 {
     font-size: 14pt;
     font-weight: 400;
-    margin: 25px 0 0 0px;
+    margin: 25px 0 0 0;
     text-align: center;
 }
 h8 {margin: 10px 0 10px 20px}
@@ -214,6 +214,13 @@ h16 {
     margin: 10px 0 10px 0;
     text-align: left;
 }
+h17 {
+    color: #1b8755ff;
+    font-size: 14pt;
+    font-weight: 500;
+    margin: 0 0 0 10px;
+    text-align: left;
+}
 [id="string [0]"] {display: flex}
 [id="string [1]"] {display: none}
 @media (max-width: 720px) {
@@ -254,5 +261,4 @@ h16 {
         transition: opacity 0s linear 0.2s;
     }
     [id="icon [2]"]:hover [id="img [8]"] {opacity: 1}
-
 }
